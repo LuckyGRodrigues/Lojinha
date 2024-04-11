@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suporte ao Cliente</title>
+  <link rel="stylesheet" href="https://unpkg.com/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar navbar-light" style="border: 3px solid black; border-radius: 5px; background-color: crimson;">
+    <div class="container-fluid" ">
+      <a class="navbar-brand" href="Index.html"><img src="imgItens/Torta-removebg-preview.png" alt="" style="height: 30px;">TechPie</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Index.html">Home</a>
+          </li>
+            <li class="nav-item">
+            <a class="nav-link" href="Login.html">Login/Cadastro</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="" alt="">
+              Compras
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Favoritos</a></li>
+              <li><a class="dropdown-item" href="#">Transporte</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Histórico de Navegação</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" aria-disabled="true">Link</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit" name="POST">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+  <section class="bg-light py-3 py-md-5">
+    <div class="container">
+      <div class="row gy-5 gy-lg-0 align-items-lg-center">
+        <div class="col-12 col-lg-6">
+          <img class="img-fluid rounded" loading="lazy" src="imgItens/faq-img-1.png" alt="How can we help you?">
+        </div>
+        <div class="col-12 col-lg-6">
+          <div class="row justify-content-xl-end">
+            <div class="col-12 col-xl-11">
+              <h2 class="h1 mb-3">Como posso te Ajudar?</h2>
+              <p class="lead fs-4 text-secondary mb-5">Esperamos poder sanar sua dúvida! Em caso de problemas não resolvidos entre em contato conosco Via e-mail ou whats!</p>
+              <div class="accordion accordion-flush" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      <span class="Preto">
+                        What do you call someone with no body and no nose? 
+                      </span>
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <p>Nobody knows!</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      <span class="Preto">
+                        How many tickles does it take to tickle an octopus?
+                      </span>
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      Ten-tickles!
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" >
+                      <span class="Preto">
+                        What is: 1 + 1?
+                      </span>
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <p>Depends on who are you asking.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="bg-dark text-light" style="position: fixed; bottom: 0; width: 100%;">
+    <div class="container-fluid py-3">
+    <div class="row">
+      <div class="col-4">
+        <ul class="nav flex-column">
+          <li class="nav-link"><a href="SuporteAoCliente.html">Suporte</a></li>
+        </ul>
+      </div>
+      <div class="col-8">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem sed necessitatibus id asperiores iste fugiat,             praesentium obcaecati explicabo consequatur voluptatem eos earum blanditiis dolorem eaque veritatis libero?               Magni, nam fugiat.
+        </p>
+        <ul class="nav">
+          <li class="nav-link" ><i class="fab fa-facebook fa-3x "></i></li>
+          <li class="nav-link"><i class="fab fa-instagram fa-3x"></i></li>
+          <li class="nav-link"><i class="fab fa-twitter fa-3x"></i></li>
+          <li class="nav-link"><i class="fab fa-whatsapp fa-3x"></i></li>
+        </ul>
+      </div>
+    </div>
+    </div>
+    <div class="text-center" style="background-color: black; padding: 20px;" >
+      &copy 2024 Copyright: <a href="#">Lojas Virtuais</a>
+    </div>
+</footer>
+
+<script src="https://unpkg.com/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
+
+<style>
+  .Preto{
+    color: black;
+  }
+</style>
